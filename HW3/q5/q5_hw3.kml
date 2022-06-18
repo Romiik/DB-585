@@ -1,0 +1,123 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="convex">
+<LineStyle>
+<color>f12f2fd3</color>
+<width>8</width>
+</LineStyle>
+<PolyStyle>
+<color>7dff0000</color>
+</PolyStyle>
+</Style>
+<Style id="convexl">
+<LineStyle>
+<color>ffffffff</color>
+<width>8</width>
+</LineStyle>
+<PolyStyle>
+<color>7dff0000</color>
+</PolyStyle>
+</Style>
+
+<Folder>
+<name>Home</name>
+<Placemark
+><name>Apartment</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.288286,34.030209</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Libraries</name>
+<Placemark
+><name>Leavey Lib</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.282922,34.021808</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Doheny Lib</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.283801,34.020213</coordinates></Point>
+</Placemark>
+<Placemark
+><name>SciEng Lib</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.288805,34.019645</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Helen Lib</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.287683,34.019130</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Hoose Lib</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.286444,34.018581</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Account Lib</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.285686,34.019456</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Fountains</name>
+<Placemark
+><name>Generatn Ftn</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.283247,34.022237</coordinates></Point>
+</Placemark>
+<Placemark
+><name>PFS Ftn</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.285212,34.020206</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Garden Ftn</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.283448,34.020465</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Alumni Ftn</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.284562,34.020541</coordinates></Point>
+</Placemark>
+<Placemark
+><name>Epstien Ftn</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.289021,34.020498</coordinates></Point>
+</Placemark>
+<Placemark
+><name>SSI Ftn</name> <styleUrl>#z1</styleUrl
+><Point><coordinates>-118.285003,34.019132</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Placemark>
+<name>Convex Hull</name>
+<styleUrl>#convex</styleUrl>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates
+>-118.286444,34.018581,80 -118.287683,34.01913,80
+-118.288805,34.019645,80 -118.289021,34.020498,80
+-118.288286,34.030209,80 -118.282922,34.021808,80
+-118.283448,34.020465,80 -118.285003,34.019132,80
+-118.286444,34.018581,80</coordinates
+>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+<Placemark>
+<name>Nearest Neighbour</name>
+<description>Nearest Neighbour</description>
+<styleUrl>#convexl</styleUrl>
+<LineString>
+<coordinates
+>-118.288286,34.030209,80 -118.283247,34.022237,80</coordinates
+>
+</LineString>
+</Placemark>
+
+</Document>
+</kml>
